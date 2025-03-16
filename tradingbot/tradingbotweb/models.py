@@ -3,7 +3,6 @@ import requests, json, decimal
 from django.core.validators import MinValueValidator, MaxValueValidator
 
 
-
 # Create your models here.
 class Currency(models.Model):
     symbol= models.CharField(max_length=10, primary_key= True)
