@@ -7,7 +7,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-
 def check_virtual_env():
     """Checks if the script is running inside a virtual environment."""
     if sys.prefix == sys.base_prefix:
